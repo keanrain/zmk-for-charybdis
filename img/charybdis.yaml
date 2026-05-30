@@ -37,11 +37,11 @@ layers:
   - .
   - FSLH
   - RSHFT
+  - {t: BSPC, h: NUM}
+  - {t: '`', h: NAV}
   - {t: ESC, h: SNIPE}
   - {t: Space, h: MOUSE}
   - Enter
-  - {t: BSPC, h: NUM}
-  - {t: '`', h: NAV}
   NUM:
   - {t: ▽, type: trans}
   - '1'
@@ -79,10 +79,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   NAV:
   - {t: ▽, type: trans}
@@ -122,10 +122,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   FUN:
   - {t: ▽, type: trans}
   - F1
@@ -183,16 +183,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp LCLK'
-  - {t: ▽, type: trans}
-  - {t: '&mkp LCLK', h: Cmd}
-  - {t: QWE, h: RSHFT}
   - {t: '&mkp RCLK', h: Alt}
+  - {t: SCROLL, h: LSHFT}
+  - {t: '&mkp LCLK', h: Cmd}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp LCLK'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -202,6 +197,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp LCLK'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -212,45 +212,45 @@ layers:
   - {t: ▽, type: trans}
   MOUSE:
   - {t: ▽, type: trans}
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
   - '0'
+  - '9'
+  - '8'
+  - '7'
+  - '6'
+  - '5'
+  - '4'
+  - '3'
+  - '2'
+  - '1'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT ARROW
-  - DOWN ARROW
-  - UP ARROW
-  - →
-  - '&mkp LCLK'
-  - PgUp
-  - {t: '&mkp LCLK', h: Cmd}
-  - {t: QWE, h: RSHFT}
+  - {t: ▽, type: trans}
   - {t: '&mkp RCLK', h: Alt}
+  - {t: SCROLL, h: LSHFT}
+  - {t: '&mkp LCLK', h: Cmd}
+  - PgUp
+  - '&mkp LCLK'
+  - →
+  - UP ARROW
+  - DOWN ARROW
+  - LEFT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+←
-  - Alt+←
-  - Alt+→
-  - Gui+→
+  - {t: ▽, type: trans}
+  - '&mkp LCLK'
   - {t: ▽, type: trans}
   - PgDn
   - {t: ▽, type: trans}
-  - '&mkp LCLK'
+  - Gui+→
+  - Alt+→
+  - Alt+←
+  - Gui+←
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
-  - FUN
-  - {t: ▽, type: trans}
+  - {t: FUN, type: held}
   - {t: ▽, type: trans}
   SCROLL:
   - {t: SCROLL, h: toggle}
@@ -309,14 +309,16 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp LCLK'
+  - {t: '&mkp RCLK', h: Alt}
   - {t: ▽, type: trans}
   - {t: '&mkp LCLK', h: Cmd}
   - {t: ▽, type: trans}
-  - {t: '&mkp RCLK', h: Alt}
+  - '&mkp LCLK'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -332,8 +334,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
