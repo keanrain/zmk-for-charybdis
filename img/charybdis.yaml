@@ -37,7 +37,7 @@ layers:
   - .
   - FSLH
   - RSHFT
-  - {t: BSPC, h: NUM}
+  - Space
   - {t: '`', h: NAV}
   - {t: ESC, h: SNIPE}
   - {t: Space, h: MOUSE}
@@ -79,7 +79,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -248,9 +248,9 @@ layers:
   - Gui+←
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - FUN
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: FUN, type: held}
+  - {type: held}
   - {t: ▽, type: trans}
   SCROLL:
   - {t: SCROLL, h: toggle}
