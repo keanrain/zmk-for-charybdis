@@ -43,6 +43,8 @@ layers:
   - {t: Space, h: MOUSE}
   - Enter
   NUM:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '7'
   - '8'
   - '9'
@@ -54,18 +56,18 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '0'
   - {t: '4', h: Ctrl}
   - {t: '5', h: Alt}
   - {t: '6', h: LSHFT}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ←
   - ↓
   - ↑
   - →
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '1'
   - '2'
@@ -77,9 +79,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: '0', type: held}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -230,10 +230,10 @@ layers:
   - {t: '&mkp LCLK', h: Cmd}
   - PgUp
   - '&mkp LCLK'
+  - ←
+  - ↓
+  - ↑
   - →
-  - UP ARROW
-  - DOWN ARROW
-  - LEFT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
