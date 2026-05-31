@@ -197,10 +197,10 @@
         number_layer {
             display-name = "NUM";
             bindings = <
-&kp N7  &kp N8  &kp N9  &trans  &trans  &trans                          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &hml LCTRL N4  &hml LALT N5  &hml LSHFT N6  &trans  &trans      &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans
-&kp N1  &kp N2  &kp N3  &trans  &trans  &trans                          &trans  &trans  &trans  &trans  &trans  &trans
-                                                      &kp N0  &trans   &trans  &trans  &trans
+&trans  &trans  &kp N7  &kp N8  &kp N9  &trans                          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp N0  &hml LCTRL N4  &hml LALT N5  &hml LSHFT N6  &trans      &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans
+&trans  &trans  &kp N1  &kp N2  &kp N3  &trans                          &trans  &trans  &trans  &trans  &trans  &trans
+                                &trans  &trans   &trans  &trans  &trans
             >;
         };
 
@@ -242,7 +242,7 @@
             display-name = "MOUSE";
             bindings = <
 &trans   &kp N1          &kp N2          &kp N3         &kp N4         &kp N5                    &kp N6         &kp N7             &kp N8              &kp N9             &kp N0     &trans
-&trans   &trans          &hml_ms LALT RCLK  &ks_scroll LSHFT 6  &hml_ms LGUI LCLK  &kp PAGE_UP                    &mkp LCLK    &kp RIGHT      &kp UP_ARROW  &kp DOWN_ARROW  &kp LEFT_ARROW  &trans
+&trans   &trans          &hml_ms LALT RCLK  &ks_scroll LSHFT 6  &hml_ms LGUI LCLK  &kp PAGE_UP                    &mkp LCLK    &kp LEFT      &kp DOWN    &kp UP      &kp RIGHT  &trans
 &trans   &trans          &trans          &mkp LCLK      &trans         &kp PAGE_DOWN              &trans         &kp LG(RIGHT)      &kp LA(RIGHT)       &kp LA(LEFT)      &kp LG(LEFT)  &trans
                                                         &trans         &mo 3             &trans   &trans          &trans
             >;
