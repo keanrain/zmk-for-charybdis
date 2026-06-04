@@ -5,6 +5,11 @@
  */
  
 #include "charybdis.dtsi"
+#include <input/processors.dtsi>
+
+&zip_temp_layer {
+    require-prior-idle-ms = <250>;
+};
 
 &kscan0 {
 	col-gpios
@@ -55,7 +60,6 @@
         irq-gpios = <&gpio0 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
         scroll-layers = <6>;
         snipe-layers = <7>;
-        automouse-layer = <4>;
     };
 };
 
@@ -65,5 +69,6 @@
     trackball_listener {
         compatible = "zmk,input-listener";
         device = <&trackball>;
+        input-processors = <&zip_temp_layer 4 700>;
     };
 };
